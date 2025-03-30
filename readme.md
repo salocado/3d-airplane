@@ -1,16 +1,28 @@
-# Three.js Journey
+# 3D Airplane
 
-## Setup
-Download [Node.js](https://nodejs.org/en/download/).
-Run this followed commands:
+A simple web-based 3D scene built with `Three.js`, displaying a flyable airplane model in a dynamic sky environment.
 
-``` bash
-# Install dependencies (only the first time)
+### 🌟 Features
+- Interactive 3D airplane model
+- Keyboard control
+- Dynamic cloud spawning and culling
+- Smooth third-person camera following the airplane
+
+### 🎮 Controls
+- ⬅️ turn left
+- ➡️ turn right
+- ⬆️ boost speed
+
+### 🚀 Getting Started
+
+**Install dependencies**
+``` plaintext
 npm install
-
-# Run the local server at localhost:8080
-npm run dev
-
-# Build for production in the dist/ directory
-npm run build
 ```
+
+**Run the server**
+``` plaintext
+npm run dev
+```
+
+The app will be available at http://localhost:5173
